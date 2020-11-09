@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+.cabecalho{
+    background-image: url(../images/capa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+   
+}
+
+.topo-header{
+    margin-top: 40px;
+    display: inline-block;
+    width: 100%;
+}
+
+.topo-header ul{
+    float: right;
+    margin-right: 3%;
+}
+
+.topo-header ul li{
+    display: inline;
+    color: white;
+    padding: 1em;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.topo-header ul li:hover{
+    color: rgb(160, 160, 160);
+    border-bottom: 1px solid  rgb(160, 160, 160);
+}
+
+.topo-header img{
+    max-width: 170px;
+    width: 100%;
+    margin-left: 3%;
+}
+
+.container-text-header{
+  width: 50%;
+  color: white;
+  margin: 10em auto 10em 38%;
+  height: 80vh;
+  line-height: 1.2;
+}
+
+.container-text-header h1{
+    font-weight: normal;
+    margin-bottom: .7em;
+}
+
+/* section-phone */
+
+
+.phone{
+    background-color:#472663;
+    position: relative;
+    margin-top: -160px;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.img-phone{
+    width: 44%;
+    float: right;
+    margin-right: 7%;
+}
+
+.img-phone img{
+    max-width:700px;
+    width:100%;
+    height: 75vh;
+    position: relative;
+    top: -27px;
+    display: block;
+    float: right;
+    margin-bottom: -26px;
+}
+
+.info-text {
+    width: 50%;
+    max-width: 480px;
+    margin: 5% 0 1em 15%;
+    color: white;
+}
+
+.info-text h4{
+    font-weight: normal;
+    margin-bottom: .7em;
+    font-size: 2em;
+}
+
+.info-text p{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.info-text ul{
+    list-style-position: inside;
+}
+
+.info-text ul li{
+    margin-top: .5em;
+}
+
+input[type="button"]{
+    color: white;
+    background-color: #ff703d;
+    border: none;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius:15px;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+input[type="button"]:hover{
+    background-color: #ff5c20;
+}
+
+
+/* seciton-2*/
+
+.section-2{
+    
+    margin: 0 auto 0 auto;
+    background-color:white;
+    text-align:center;
+    width: 90%;
+}
+
+.title-section-2 h4{
+    text-align: center;
+    margin: 1.5em auto;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #472663;
+}
+
+.title-section-2 p{
+    width:90%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+
+.img-section-2{
+    width: 96%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 4em;
+    position: relative;
+}
+
+.img-section-2 img{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    top: 60px;
+}
+
+/* section-03 */
+
+.section-3{
+    display: flex;
+    
+}
+
+.info-left{
+    width: 50%;
+    padding: 5%;
+    background-color: #835fa7;
+    box-sizing: border-box;
+    color: white;
+    height:70vh;
+    
+}
+
+.info-left h4{
+    font-weight: normal;
+    letter-spacing:1px;
+    margin-top: 14%;
+    font-size: 1.2em;
+    font-style: italic;
+
+}
+
+.info-left p{
+    line-height: 2;
+    margin-top: 5%;
+}
+
+.info-rigth{
+    width:50%;
+    float: right;
+    padding: 5%;
+}
+
+
+.my-info{
+    margin-top: 50px;
+}
+
+.my-info img{
+    max-width: 50px;
+    width:100%;
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+}
+
+
+
+.my-info span{
+    display: block;
+    color: #ccc;
+    font-size: .8em;
+    font-style: italic;
+}
+
+.info-rigth p{
+    margin: -2em auto;
+    line-height:2;
+}
+
+.info-rigth > span{
+    color:transparent;
+    background-color: #ccc;
+    border-radius: 50%;
+    padding: .1em;
+    margin-top: 2.5em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.info-rigth > span:nth-of-type(1){
+    background-color: rgb(134, 134, 134);
+}
+
+/* section 4 */
+
+.section-4{
+    background-color: #472663;
+    display: flex;
+    padding: 5em;
+}
+
+.form-contact{
+    width: 50%;
+    color:white;
+    max-width: 630px;
+}
+
+.form-contact h5{
+    margin-top: 5em;
+    margin-bottom: 1em;    
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-left: 3%;
+}
+
+.form-contact p{
+    margin-left: 3%;
+    font-size: .9em;
+}
+
+form fieldset{
+    border: none;
+    margin-top: 2em;
+    margin-left: 3%;
+}
+
+input[type="name"], input[type="email"]{
+    width: 100%;
+    padding: 1.1em;
+    margin-top: 1em;
+    outline: none;
+}
+
+input[type="text"]{
+    padding: 1em  5em 6em 1em;
+    margin-top: 1em;
+    width: 100%;
+    outline: none;
+}
+
+input[value="Enviar"]{
+   width: 40%;
+}
+
+.maps{
+    width:48%;
+    margin-left: 10%;
+}
+
+.maps h4{
+    color:white;
+    font-weight: normal;
+    margin-top: 7em;
+}
+
+.maps iframe{
+    display:block;
+    margin: 1em auto;
+    width: 98%;
+}
+
+/* footer */
+
+.down{
+    background-color: #192123;
+    color: white;
+    padding: 2em;
+}
+
+.down div p{
+    display: inline;
+
+}
+
+.down div p:nth-of-type(2){
+    color:white;
+    float: right;
+}
+
+@media screen and (max-width:52em){
+    .container-text-header{
+        text-align: center;
+        width: 98%;
+        margin: 10em auto 10em auto;
+    }
+}
+
+@media screen and (max-width:48em){
+    .img-phone{
+       display:none;
+     
+    }
+
+    .info-text{
+        width: 80%;
+        display:block;
+        text-align: center;  
+        margin: 2em auto;
+    }
+
+    .info-text ul{
+        list-style:none;
+    }
+
+    input[value="Entre em contato"]{
+        width: 50%;
+
+    }
+
+    .section-4{
+        display:block;
+    }
+
+    .form-contact{
+        margin: 0 auto;
+        width:90%;
+        text-align: center;
+    }
+
+    .maps{
+        display:block;
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .maps h4{
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+@media (max-width:38em){
+
+    .topo-header nav ul{
+        float: none;
+        margin-top: 2em;
+      
+    }
+
+    .topo-header nav ul li{
+        display: block;
+        text-align: center;
+    }
+
+    .topo-header nav ul li:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .section-3{
+        display: block;
+    }
+
+    .info-left{
+        width:100%;
+    }
+
+    .info-rigth{
+        float: none;
+        width:100%;
+    }
+
+    .info-text{
+        margin: 2em auto;
+    }
+}
+
+
